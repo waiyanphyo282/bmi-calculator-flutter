@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'input_page.dart';
+import 'screens/input_page.dart';
 
 void main() => runApp(BMICalculator());
 
@@ -8,7 +8,7 @@ class BMICalculator extends StatelessWidget {
   static const MaterialColor _materialColor = const MaterialColor(
     0xFF0A0E21,
     const <int, Color>{
-      50:  const Color(0xFFe0e0e0),
+      50: const Color(0xFFe0e0e0),
       100: const Color(0xFFb3b3b3),
       200: const Color(0xFF808080),
       300: const Color(0xFF4d4d4d),
